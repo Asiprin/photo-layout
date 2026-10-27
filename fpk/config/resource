@@ -1,0 +1,13 @@
+{
+    "port-config": {
+        "protocol-file": "PhotoLayout.sc"
+    },
+    "docker-project": {
+        "projects": [
+            {
+                "name": "photo-layout",
+                "path": "docker"
+            }
+        ]
+    }
+}

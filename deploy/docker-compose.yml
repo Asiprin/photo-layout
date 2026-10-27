@@ -1,0 +1,10 @@
+services:
+  photo-layout:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: photo-layout:latest
+    container_name: photo-layout
+    ports:
+      - '3210:80'
+    restart: unless-stopped

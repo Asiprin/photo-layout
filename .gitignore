@@ -1,0 +1,7 @@
+node_modules/
+dist/
+fpk/.pkg/
+fpk/dist/
+backup/
+*.tar.gz
+.DS_Store

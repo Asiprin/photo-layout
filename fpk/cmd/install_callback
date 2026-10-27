@@ -1,0 +1,3 @@
+#!/bin/bash
+# 安装完成后执行：由系统的 docker-project 资源拉起容器，这里无需处理
+exit 0

@@ -1,0 +1,10 @@
+services:
+  web:
+    image: nginx:1.27-alpine
+    container_name: photo-layout
+    restart: unless-stopped
+    ports:
+      - '${TRIM_SERVICE_PORT:-3210}:80'
+    volumes:
+      - '${TRIM_APPDEST:?}/docker/html:/usr/share/nginx/html:ro'
+      - '${TRIM_APPDEST:?}/docker/nginx.conf:/etc/nginx/conf.d/default.conf:ro'

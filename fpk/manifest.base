@@ -1,0 +1,14 @@
+appname         = photo-layout
+version         = 1.0.2
+display_name    = 照片排版打印
+platform        = PLACEHOLDER
+maintainer      = leebun
+distributor     = leebun
+desktop_uidir   = ui
+desktop_applaunchname = photo-layout.Application
+service_port    = 3210
+checkport       = false
+ctl_stop        = true
+desc            = 照片排版打印：PDF/照片按标准尺寸（1寸/2寸/6寸/卡片等）自动排版到A4，导出打印就绪PDF
+source          = thirdparty
+checksum        =

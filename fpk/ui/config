@@ -1,0 +1,15 @@
+{
+    ".url": {
+        "photo-layout.Application":
+        {
+            "title": "照片排版打印",
+            "desc": "按标准照片尺寸排版到A4并打印",
+            "icon": "images/{0}.png",
+            "type": "url",
+            "port": "3210",
+            "protocol": "http",
+            "url": "/",
+            "allUsers": true
+        }
+    }
+}
