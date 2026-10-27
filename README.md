@@ -1,6 +1,7 @@
 # 照片排版打印（photo-layout）
 
 把照片按标准尺寸（1 寸 / 2 寸 / 6 寸 / 卡片……）自动排到 A4 纸上，导出打印就绪的 PDF。剪下来就是标准尺寸，不用再跟打印机的缩放选项搏斗。
+在线体验：https://asiprin.github.io/photo-layout/
 
 <img width="1529" height="1537" alt="image" src="https://github.com/user-attachments/assets/51af0cd6-0c46-467d-b009-fa84d4116b0b" />
 
